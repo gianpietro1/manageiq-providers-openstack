@@ -10,3 +10,4 @@ gemspec
 
 # Load Gemfile with dependencies from manageiq
 eval_gemfile(File.expand_path("spec/manageiq/Gemfile", __dir__))
+gem "fog-openstack"                              :require => true, :git => "https://github.com/gianpietro1/fog-openstack", :branch => "master"
